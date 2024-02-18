@@ -1,5 +1,6 @@
-let a = 500;
-let b;
-// let c = a * b;
-let z = b * a * prompt("this value print in console cheak this ");
-console.log(z);
+let a = parseInt(prompt("what is price"));
+let b = parseInt(prompt("how mach cheken gram"));
+
+let c = a / 1000;
+let d = c * b;
+document.write(`you have to pay ${d}`);
